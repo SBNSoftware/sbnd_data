@@ -1,0 +1,8 @@
+Change log
+===========
+
+v01_35_00 [20250911] (asanchezcastillo@ugr.es)
+ * Modified `pds_calibration.db` to include new attributes. In particular, timing correction coming form cosmic calibration. STD of the measured SPE level of eahc PMT. A tag to determine if a PMT has to be reconstructed.
+
+v01_28_00 [20250305] (asanchezcastillo@ugr.es)
+ * Create the folder `CalibrationDatabase` to store the `.db` files that are read when accessing the calibration database. Add the file `pds_calibration.db` into this folder.

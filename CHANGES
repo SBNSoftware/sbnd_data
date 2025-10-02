@@ -1,0 +1,177 @@
+Change log
+===========
+
+v01_35_00 [20250911] (asanchezcastillo@ugr.es)
+ * Modified `pds_calibration.db` to include new attributes. 
+
+v01_29_00 [20250311] (dcarber@colostate.edu)
+ * Updated the intrisic noise model to use SBND data as input. sbnd-noise-spectra-v1.json.bz2
+
+v01_29_00 [20250320] (lane.kashur@colostate.edu)
+ * Added	the file SCEoffsets_SBND_E500_dualmap_voxelTH3.root to the SCEoffsets folder.
+
+v01_29_00 [20250226] (mdeltutt@fnal.gov)
+ * Added sbnd_rock_maxpathlength_fluxL_gdmlv02_03.xml for dirt simulation
+ * Added sbnd_rock_maxpathlength_fluxL_gdmlv02_04.xml for dirt simulation
+
+v01_29_00 [20250313] (asanchezcastillo@ugr.es)
+ * Add the file `PMTRatioCalibration_data.root` that contains the calibration points derived for OpFlash drift distance estimation with data.
+
+v01_28_00 [20250305] (asanchezcastillo@ugr.es)
+ * Create the folder `CalibrationDatabase` to store the `.db` files that are read when accessing the calibration database. Add the file `pds_calibration.db` into this folder.
+
+v01_27_00 [20250212] (asanchezcastillo@ugr.es)
+ * Moved the file `digi_pmt_sbnd_data.root` into  `digi_pmt_sbnd_data_OV5.root`. This files contains characterized SER and SPE amplitudes for a set of PMTs, which is required to run PMT reconstruction on data. This calibration was derived for the PMT Operational Voltages v5.
+ * Added the file `digi_pmt_sbnd_data_OV6.root` to the  `OpDetSim` directory. This files contains characterized SER and SPE amplitudes for a set of PMTs, which is required to run PMT reconstruction on data. This calibration was derived for the PMT Operational Voltages v6.
+
+v01_26_00 [20241127] (asanchezcastillo@ugr.es)
+ * Added the file `digi_pmt_sbnd_data.root` to the  `OpDetSim` directory. This files contains characterized SER and SPE amplitudes for a set of PMTs, which is required to run PMT reconstruction on data.
+
+v01_26_00 [20241127] (tjyang@fnal.gov)
+ * Added CVN model for tagging Pandora slices as cosmic, NC, numu and nue. 
+
+v01_25_00 [20240911] (lynnt@uchicago.edu)
+ * Added the parametrized TPC electronics response calibration file, `sbnd-params-chresp-ideal-v1.json.bz2` to the `WireCell` directory. Compatible with gdml v0202. 
+
+v01_25_00 [20240828] (lynnt@uchicago.edu)
+ * Updated the `WireCell` wire geometry file to version `sbnd-wires-geometry-v0202.json.bz2`, compatible with updated gdml. Includes new "dead" wires in the geometry, `sbndcode` PR #497.
+
+v01_24_00 [20240301] (fnicolas@fnal.gov)
+ * Updated `CNNID_model.pb` in `CNNHitClassification` (retrained for WireCell workflow)
+ * Removed "hacked" SCE map for the 2d drift simulation (sbndcode#411) in `SCEoffsets` (hacked map no longer needed)	  
+
+v01_23_00 [20240212] (fnicolas@fnal.gov)
+ * Added new ("hacked") SCE map for the 2d drift simulation (sbndcode#411) in `SCEoffsets`
+
+v01_23_00 [20240124] (fnicolas@fnal.gov)
+ * Updated  CRUMBS weights in `CRUMBS/`(supports OpT0Finder flash matching and retrained using wirecell workflow + sbndcode v09_82_01) 
+ * Updated weights for Razzle & Dazzle MVA tools in `PID/` (retrained using wirecell workflow and sbndcode v09_82_01)
+ * Added weights for new Razzled PID tool in `PID/`
+ 
+v01_22_00 [20231219] (fnicolas@fnal.gov)
+ * Updated digi_arapuca_sbnd.root in `OpDetSim` with updated XARAPUCA SER for the new 12 bits (v1740) readout
+ * Updated flash matching metrics in `FlashMatch` for the updated XARAPUCA sim
+
+v01_22_00 [20230713] (fnicolas@fnal.gov)
+ * Add a new directory `CNNHitClassification` and add `CNNID_model.pb` with weights for CNN hit classification
+
+v01_21_00 [20230705] (fnicolas@fnal.gov)
+ * Updated digi_arapuca_sbnd.root in `OpDetSim` with new XARAPUCA SER for the new (16 ns) sampling time 
+
+v01_20_00 [20230610] (fnicolas@fnal.gov)
+ * Updated PMTRatioCalibration.root in `OpDetReco` for new PMT efficiencies (~12% coated, ~19% uncoated)
+ * Updated fm_metrics_sbnd.root in `FlashMatch` for new PMT efficiencies and updated PMT saturation model
+
+v01_19_00 [20230421] (hwei2@lsu.edu)
+ * Add a new directory `WireCell/` for wirecell geomery, noise spectra, and field response json files
+
+v01_18_00 [20230215] (fnicolas@fnal.gov)
+ * Updated digi_arapuca_sbnd.root and digi_pmt_sbnd_v2int0.root including SER with increased sampling
+
+v01_17_00 [20230214] (fnicolas@fnal.gov)
+ * Updating “Razzle Dazzle” xmls in v01_17_00 tag with working version of the MVA weights for production
+
+v01_17_00 [20230213] (fnicolas@fnal.gov)
+ * Updated MVA weights using improved hit finding in `PandoraMVAs/`, `PID/ and `CRUMBS/`
+
+v01_16_00 [20221007] (fnicolas@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_15_00 [20220923] (fnicolas@fnal.gov)
+ * Added new CRUMBS BDT weights with different versions per signal
+
+v01_14_00 [20220805] (fnicolas@fnal.gov)
+ * Created `OpDetReco/` directory and added PMTRatioCalibration.root file
+
+v01_13_00 [20220502] (fnicolas@fnal.gov)
+ * replaced PandoraBdt_v09_32_00_SBND.xml with PandoraBdt_SBND.xml in `PandoraMVAs/`
+
+v01_12_00 [20220316] (pgreen@fnal.gov)
+ * Created `CRUMBS/` directory and added CRUMBS_SBND.weights.xml containing CRUMBS BDT weights
+
+v01_11_00 [20211222] (pgreen@fnal.gov)
+ * Updated SBND_OpLibOUT_v2.00.root `OpticalLibrary/` for hybrid light simulation model
+
+v01_10_00 [20211105] (pgreen@fnal.gov)
+ * Updated digi_arapuca_sbnd.root with more realistic SER in `OpDetSim/`
+ * Created `GENIE/` directory and added sbnd_rock_maxpathlength_fluxI_gdmlv02_00.xml for dirt simulation
+
+v01_09_00 [20211011] (pgreen@fnal.gov)
+ * replaced PandoraBdt_v08_33_00_SBND.xml with PandoraBdt_v09_32_00_SBND.xml in `PandoraMVAs/`
+
+v01_08_00 [20210908] (pgreen@fnal.gov)
+ * Added ESTAREnergyLookupCurve.root containing ESTAR lookup table for shower energy reconstruction in `ShowerEnergyReco/`
+
+v01_08_00 [20210903] (pgreen@fnal.gov)
+ * Added digi_pmt_sbnd_v2int0.root containing alternative PMT response in `OpDetSim/`
+
+v01_08_00 [20210805] (pgreen@fnal.gov)
+ * Updated digi_arapuca_sbnd.root with SPE waveforms
+
+v01_07_00 [20210729] (pgreen@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_06_00 [20210702] (pgreen@fnal.gov)
+ * Added Razzle.weights.xml and Dazzle.weights.xml in `PID/` for "Razzle Dazzle" PID
+
+v01_06_00 [20210701] (pgreen@fnal.gov)
+ * Added SBND_OpLibOUT_v2.00.root in `OpticalLibrary/` for hybrid light simulation.
+
+v01_06_00 [20210219] (pgreen@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_05_00 [20201123] (ascarff@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_04_00 [20201021] (ascarff@fnal.gov)
+ * Updated digi_arapuca_sbnd.root in `OpDetSim/` with TPB time for visible arapucas.
+
+v01_03_00 [20201006] (ascarff@fnal.gov)
+ * Added ShowerBayesdEdxPriors.root
+
+v01_03_00 [20200817] (ascarff@fnal.gov)
+ * Updated OpDetSim root files in `OpDetSim/` and removed `OpticalLibrary/` directory.
+
+v01_02_00 [20200521] (ascarff@fnal.gov)
+ * Updated PandoraBdt_v08_33_00_SBND.xml with added PFO	Characterisation weights in `PandoraMVAs/`
+
+v01_02_00 [20200323] (ascarff@fnal.gov)
+ * Added OpDetSim root files in `OpDetSim/`
+
+v01_02_00 [20200204] (tbrooks@fnal.gov)
+ * Added reconstruction parametrisation histograms in `PhysicsBook/`
+
+v01_02_00 [20200119] (tbrooks@fnal.gov)
+ * Added flash matching metrics in `FlashMatch/`
+
+v01_02_00 [20200117] (tbrooks@fnal.gov)
+ * updated PandoraBdt_v08_33_00_SBND.xml with added SliceID weights in `PandoraMVAs/`
+
+v01_02_00 [20191212] (tbrooks@fnal.gov)
+ * Added voxelized space charge maps to `SCEoffsets/`
+
+v01_02_00 [20191029] (tbrooks@fnal.gov)
+ * Added PandoraBdt_v08_33_00_SBND.xml to `PandoraMVAs/`
+
+v01_02_00 [20191018] (tbrooks@fnal.gov)
+ * created `PandoraMVAs/` directory and added PandoraSvm_v03_11_00_MicroBooNE.xml
+
+v01_02_00 [20180917] (tbrooks@fnal.gov)
+ * made temp change for space charge offsets and part gun hists
+
+v01_02_00 [20180307] (tbrooks@fnal.gov)
+ * added bnb-like particle gun input histograms in `ParticleGunHists/` directory
+
+v01_01_00 [20180119] (tbrooks@fnal.gov)
+ * added optical library in `OpticalLibrary/` directory
+
+v01_00_00 [20161223] (petrillo@fnal.gov)
+ * added field response in `Response/` directory
+
+v00_00_00 [20161222] (petrillo@fnal.gov)
+ * first version; guidelines and instructions at: https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Small_data_files_for_SBND_processing_sbnd_data
+ * skeleton for response files
+
+
+DO NOT WRITE HERE: UPDATES GO TO THE TOP!
+

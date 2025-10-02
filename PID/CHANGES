@@ -1,0 +1,16 @@
+Changes in `PID` directory
+================================
+
+v01_23_00 [20240124] (fnicolas@fnal.gov)
+ * Updated weights for Razzle & Dazzle MVA tools (retrained using wirecell workflow and sbndcode v09_82_01)
+ * Added weights for new Razzled PID tool
+
+v01_17_00 [20230214] (fnicolas@fnal.gov)
+ * Updating "Razzle Dazzle" xmls in v01_17_00 tag with working version of the MVA weights for production
+
+v01_17_00 [20230213] (fnicolas@fnal.gov)
+ * Updated "Razzle Dazzle" MVA weights using improved hit finding
+
+v01_06_00 [20210702] (pgreen@fnal.gov)
+ * Created directory and added Razzle.weights.xml and Dazzle.weights.xml in `PID/` for "Razzle Dazzle" PID
+

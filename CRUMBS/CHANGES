@@ -1,0 +1,14 @@
+Changes in `CRUMBS` directory
+================================
+
+v01_23_00 [20240124] (fnicolas@fnal.gov)
+ * Updated  CRUMBS weights (supports OpT0Finder flash matching and retrained using wirecell workflow + sbndcode v09_82_01)
+
+v01_17_00 [20230213] (fnicolas@fnal.gov)
+ * Updated CRUMBS BDT weights using improved hit finding
+
+v01_15_00 [20220923] (fnicolas@fnal.gov)
+ * Added new CRUMBS BDT weights with different versions per signal
+
+v01_12_00 [20220316] (pgreen@fnal.gov)
+ * Created directory and added CRUMBS_SBND.weights.xml containing CRUMBS BDT weights

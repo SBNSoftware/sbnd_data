@@ -1,0 +1,19 @@
+Changes in `WireCell` directory
+===========
+v01_29_00 [20250311] (dcarber@colostate.edu)
+* Updated the intrisic noise model to use SBND data as input. sbnd-noise-spectra-v1.json.bz2
+
+v01_25_00 [20240911] (lynnt@uchicago.edu)
+* Added the parametrized TPC electronics response calibration file, `sbnd-params-chresp-ideal-v1.json.bz2` to the `WireCell` directory. Compatible with gdml v0202. 
+
+v01_25_00 [20240828] (lynnt@uchicago.edu)
+ * Updated the `WireCell` wire geometry file to version `sbnd-wires-geometry-v0202.json.bz2`, compatible with updated gdml. Includes new "dead" wires in the geometry, `sbndcode` PR #497.
+
+v01_19_00 [20230421] (hwei2@lsu.edu)
+ * Add WireCell geomery, noise spectra, and field response json files
+
+v01_18_00 [20230215] (fnicolas@fnal.gov)
+ * Updated digi_arapuca_sbnd.root and digi_pmt_sbnd_v2int0.root including SER with increased sampling
+
+DO NOT WRITE HERE: UPDATES GO TO THE TOP!
+

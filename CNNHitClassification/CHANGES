@@ -1,0 +1,7 @@
+Change log in `CNNHitClassification`
+===========
+v01_24_00 [20240301] (fnicolas@fnal.gov)
+ * Updated `CNNID_model.pb` (retrained with WireCell workflow)
+
+v01_22_00 [20230713] (fnicolas@fnal.gov)
+ * Add a new directory `CNNHitClassification` and add `CNNID_model.pb` with weights for CNN hit classification

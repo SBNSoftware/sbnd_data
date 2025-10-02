@@ -1,0 +1,6 @@
+Changes in `ShowerEnergyReco` directory
+================================
+
+v01_08_00 [20210908] (pgreen@fnal.gov)
+ * Created directory and added ESTAREnergyLookupCurve.root containing ESTAR lookup table for shower energy reconstruction
+

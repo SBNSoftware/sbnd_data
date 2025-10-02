@@ -1,0 +1,29 @@
+Changes in `OpDetSim` directory
+================================
+v01_26_00 [20241127] (asanchezcastillo@ugr.es)
+* Added the file `digi_pmt_sbnd_data.root` to the  `OpDetSim` directory. This files contains characterized SER and SPE amplitudes for a set of PMTs, which is required to run PMT reconstruction on data.
+
+v01_22_00 [20231219] (fnicolas@fnal.gov)
+ * Updated digi_arapuca_sbnd.root in `OpDetSim` with updated XARAPUCA SER for the new 12 bits (v1740) readout
+
+v01_21_00 [20230705] (fnicolas@fnal.gov)
+ * Updated digi_arapuca_sbnd.root in `OpDetSim` with new XARAPUCA SER for the new (16 ns) sampling time
+
+v01_18_00 [20230215] (fnicolas@fnal.gov)
+ * Updated digi_arapuca_sbnd.root and digi_pmt_sbnd_v2int0.root including SER with increased sampling
+
+v01_10_00 [20211105] (pgreen@fnal.gov)
+ * Updated digi_arapuca_sbnd.root to have more realistic SER
+
+v01_08_00 [20210903] (pgreen@fnal.gov)
+ * Added digi_pmt_sbnd_v2int0.root containing alternative PMT response
+
+v01_08_00 [20210805] (pgreen@fnal.gov)
+ * Updated digi_arapuca_sbnd.root with SPE waveforms
+
+v01_04_00 [20201021] (ascarff@fnal.gov)
+ * Updated digi_arapuca_sbnd.root with TPB time for visible arapucas.
+
+v01_03_00 [20200817] (ascarff@fnal.gov) 
+ * Updated root files from Iker. Changed from holding distributions as TH1D to std::vector<double>.
+

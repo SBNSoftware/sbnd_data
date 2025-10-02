@@ -1,0 +1,8 @@
+Changes in `Response` directory
+================================
+
+v01_00_00 [20121223] (petrillo@fnal.gov) 
+ * added electric field response v. 1.0 from Jyoti Joshi (see SBN DocDB 1227)
+   via Michelle Stancari; I added version information to the file itself,
+   which can be accessed in ROOT (interactively, a `.ls` suffices)
+

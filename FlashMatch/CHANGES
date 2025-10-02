@@ -1,0 +1,23 @@
+Change log
+===========
+v01_22_00 [20231219] (fnicolas@fnal.gov)
+ * Updated flash matching metrics in `FlashMatch` for the updated XARAPUCA sim
+
+v01_20_00 [20230610] (fnicolas@fnal.gov)
+ * Updated fm_metrics_sbnd.root for new PMT efficiencies
+   and updated PMT saturation model
+
+v01_16_00 [20221007] (fnicolas@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_07_00 [20210729] (pgreen@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_06_00 [20210219] (pgreen@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_05_00 [20201123] (ascarff@fnal.gov)
+ * Updated fm_metrics_sbnd.root in `FlashMatch`.
+
+v01_02_00 [20200119] (tbrooks@fnal.gov)
+ * Added flash matching metrics in `FlashMatch/`

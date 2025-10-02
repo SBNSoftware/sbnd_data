@@ -1,0 +1,9 @@
+Changes in `OpticalLibrary` directory
+================================
+
+v01_11_00 [20211222] (pgreen@fnal.gov)
+ * Updated SBND_OpLibOUT_v2.00.root
+
+v01_06_00 [20210701] (pgreen@fnal.gov)
+ * Created directory and added SBND_OpLibOUT_v2.00.root in `OpticalLibrary/` for hybrid light simulation.
+

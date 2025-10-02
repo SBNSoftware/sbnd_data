@@ -1,0 +1,10 @@
+Changes in `OpDetReco` directory
+================================
+v01_30_00 [20250410] (asanchezcastillo@ugr.es)
+ * Uploaded PMTRatioCalibration_MC2.root to include calibration for drift coordinate estimation for new PMT detection efficiencies. (~3.9% coated, ~3.5% uncoated)
+
+v01_20_00 [20230610] (fnicolas@fnal.gov)
+ * Updated PMTRatioCalibration.root for new PMT efficiencies (~12% coated, ~19% uncoated)
+
+v01_14_00 [20220805] (fnicolas@fnal.gov)
+ * Created directory and added PMTRatioCalibration.root containing calibration points for drift coordinate estimation from light signals

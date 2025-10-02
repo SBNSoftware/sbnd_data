@@ -1,0 +1,25 @@
+Changes in `PandoraMVAs` directory
+================================
+v01_17_00 [20230213] (fnicolas@fnal.gov)
+ * Updated PandoraBdt_SBND.xml with retrained weights using improved hit finding
+
+v01_13_00 [20220502] (fnicolas@fnal.gov)
+ * replaced PandoraBdt_v09_32_00_SBND.xml with PandoraBdt_SBND.xml
+
+v01_09_00 [20211011] (pgreen@fnal.gov)
+ * replaced PandoraBdt_v08_33_00_SBND.xml with PandoraBdt_v09_32_00_SBND.xml
+
+v01_03_00 [20201006] (ascarff@fnal.gov)
+ * Added ShowerBayesdEdxPriors.root
+
+v01_02_00 [20200521] (ascarff@fnal.gov)
+ * updated PandoraBdt_v08_33_00_SBND.xml with added PFO Characterisation weights
+
+v01_02_00 [20200117] (tbrooks@fnal.gov)
+ * updated PandoraBdt_v08_33_00_SBND.xml with added SliceID weights
+
+v01_02_00 [20191029] (tbrooks@fnal.gov) 
+ * created directory and added PandoraBdt_v08_33_00_SBND.xml
+
+v01_02_00 [20191018] (tbrooks@fnal.gov) 
+ * created directory and added PandoraSvm_v03_11_00_MicroBooNE.xml

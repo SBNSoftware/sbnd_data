@@ -1,0 +1,9 @@
+Changes in `ParticleGunHists` directory
+================================
+
+v01_02_00 [20180307] (tbrooks@fnal.gov) 
+ * added histogram inputs for BNB-like particle gun generation
+   Contains 1D momentum histogram and 2D theta_xz-theta_yz histogram
+   for electrons, muons, pi0 and protons generated with 500000 bnb
+   events. File = particlegun_bnb_hists.root
+

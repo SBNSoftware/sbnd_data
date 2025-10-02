@@ -1,0 +1,4 @@
+Change log in `CVN`
+===========
+v01_26_00 [20241127[ (tjyang@fnal.gov)
+* Added CVN model for tagging Pandora slices as cosmic, NC, numu and nue. 

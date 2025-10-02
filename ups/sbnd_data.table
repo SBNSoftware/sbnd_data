@@ -1,0 +1,21 @@
+File    = table
+Product = sbnd_data
+
+#*************************************************
+# Starting Group definition
+Group:
+
+Flavor     = ANY
+Qualifiers = ""
+
+
+Common:
+  Action = setup
+    prodDir()
+    setupEnv()
+    envSet(${UPS_PROD_NAME_UC}_VERSION, ${UPS_PROD_VERSION})
+
+    pathPrepend(FW_SEARCH_PATH, ${UPS_PROD_DIR}:${UPS_PROD_DIR}/CalibrationDatabase)
+End:
+# End Group definition
+#*************************************************

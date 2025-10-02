@@ -1,0 +1,34 @@
+`sbnd_data` package
+=====================
+
+`sbnd_data` contains small data files for SBND processing.
+
+On each modification, the `CHANGES` file should be updated to document the changes.
+
+The content is:
+* `GENIE/`: contains configurations for dirt simulation
+* `ParticleGunHists/`: particle gun input histograms
+* `Response/`: signal shape on the wires ("electric field response")
+* `FlashMatch/`: contains flash matching metric files
+* `OpDetSim/`: contains digi_arapuca_sbnd.root and digi_pmt_sbnd.root files
+* `SCEoffsets/`: Contains space charge offsets
+* `PandoraMVAs/`: Trained MVA configurations for Pandora
+* `OpticalLibrary/`: photon library files (for hybrid light simulation)
+* `ShowerEnergyReco/`: contains files for shower energy reconstruction
+* `CRUMBS/`: contains BDT weights for CRUMBS cosmic rejection tool
+* `OpDetReco/`: contains files for light signal reconstruction
+* `WireCell/`: contains files for wirecell simulation, signal processing, and reconstruction
+* `CNNHitClassification/`: contains weights for CNN hit classification
+* `CVN/`: contains model for CVN neutrino flavor classification
+* `README`: a short description of the content of the package; it is in Markdown format, because why not _(this file)_
+* `CHANGES`: a list of the changes to the content: **please update this whenever you change the content!** This is the only way we have to track it.
+* `ups/`: contains the magics for this to be a legit UPS product; usually no need to change it
+
+General documentation of this package is in SBND wiki at: https://cdcvs.fnal.gov/redmine/projects/sbndcode/wiki/Small_data_files_for_SBND_processing_sbnd_data .
+
+Usage
+------
+
+The package is set up in the usual UPS way.
+Only the base directory is added to the `FW_SEARCH_PATH` list: your configuration will have to specify the full relative path to a file.
+ 
