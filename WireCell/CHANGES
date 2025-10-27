@@ -1,5 +1,8 @@
 Changes in `WireCell` directory
 ===========
+v01_37_00 [20251027] (lynnt@uchicago.edu)
+* Updated wire geoemtry file to `sbnd-wires-geometry-v0206.json.bz2`. TPC has absolute shift along beam dimension (z). 
+
 v01_29_00 [20250311] (dcarber@colostate.edu)
 * Updated the intrisic noise model to use SBND data as input. sbnd-noise-spectra-v1.json.bz2
 
