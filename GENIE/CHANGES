@@ -1,6 +1,9 @@
 Changes in `GENIE` directory
 ================================
 
+v01_37_00 [20251028] (h.lay@sheffield.ac.uk)
+ * Added sbnd_rock_maxpathlength_fluxL_gdmlv02_06.xml for dirt simulation
+
 v01_29_00 [20250226] (mdeltutt@fnal.gov)
  * Added sbnd_rock_maxpathlength_fluxL_gdmlv02_03.xml for dirt simulation
  * Added sbnd_rock_maxpathlength_fluxL_gdmlv02_04.xml for dirt simulation
