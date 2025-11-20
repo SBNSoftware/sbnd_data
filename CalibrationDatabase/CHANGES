@@ -1,6 +1,9 @@
 Change log
 ===========
 
+v01_38_00 [20251031] (sungbino@fnal.gov)
+ * Added the first electron lifetime database file `tpc_elifetime.db`
+
 v01_37_00 [20251028] (h.lay@sheffield.ac.uk)
  * Added the two CRT database files `crt_feb_calibration.db` and `crt_channel_calibration.db`
 
