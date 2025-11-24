@@ -20,6 +20,7 @@ The content is:
 * `WireCell/`: contains files for wirecell simulation, signal processing, and reconstruction
 * `CNNHitClassification/`: contains weights for CNN hit classification
 * `CVN/`: contains model for CVN neutrino flavor classification
+* `WireMod/`: contains spline files for WireMod systematics
 * `README`: a short description of the content of the package; it is in Markdown format, because why not _(this file)_
 * `CHANGES`: a list of the changes to the content: **please update this whenever you change the content!** This is the only way we have to track it.
 * `ups/`: contains the magics for this to be a legit UPS product; usually no need to change it
