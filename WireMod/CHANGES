@@ -1,0 +1,7 @@
+Change log
+===========
+
+v01_38_00 [20251123] (twester@uchicago.edu)
+ * Initial version of WireMod spline files (TGraph2D).
+   Naming convention: wiremod_{var1}{var2}{q or w}_splines_sbnd.root
+   Q for charges, W for widths. Variables are x,y,z,txw (theta_xw), tyz (theta_yz)
