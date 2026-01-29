@@ -1,6 +1,9 @@
 Change log
 ===========
 
+v01_42_00 [20260121] (sxy1439@mavs.uta.edu)
+ * Added updated YZ non-uniformity maps 'yz_data2025_v10_14_02.root' and 'yz_mc2025_v10_14_02.root' to YZmaps 
+
 v01_35_00 [20250911] (asanchezcastillo@ugr.es)
  * Modified `pds_calibration.db` to include new attributes. 
 
