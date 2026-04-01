@@ -34,3 +34,8 @@ Usage
 The package is set up in the usual UPS way.
 Only the base directory is added to the `FW_SEARCH_PATH` list: your configuration will have to specify the full relative path to a file.
  
+GIT LFS
+------
+
+This package leverages Git Large File Storage in order to resolve issues with files > 50 MB. If you receive errors when attempting to create a PR with a large file, 
+or are manually cloning this repo for non-standard use, please reference the following documentation: https://git-lfs.com/
